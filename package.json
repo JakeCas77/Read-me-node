@@ -1,0 +1,25 @@
+{
+  "name": "read-me-node",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeCas77/Read-me-node.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeCas77/Read-me-node/issues"
+  },
+  "homepage": "https://github.com/JakeCas77/Read-me-node#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
