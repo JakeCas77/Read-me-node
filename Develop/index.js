@@ -1,6 +1,9 @@
 // TODO: Include packages needed for this application
 
 const { default: inquirer } = require("inquirer");
+const fs = require("fs");
+const util = require("util");
+
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
@@ -18,7 +21,7 @@ const questions = [{
     name: "Table of Contents"
 }, {
     type: "input",
-    message: "What does the user need to install to run this app (ie...steam)",
+    message: "What does the user need to install to run this app (ie...dependencies)",
     name: "Installation"
 }, {
     type: "input",
@@ -75,7 +78,7 @@ function init() {
             console.log(data)
 
         })
-        
+
 }
 
 // Function call to initialize app
